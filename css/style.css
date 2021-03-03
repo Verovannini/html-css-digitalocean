@@ -64,3 +64,20 @@ a{
 }
 /* END HEADER */
 
+/* MAIN */
+/* Jumbotron */
+.jumbotron{
+    background-image: url('../img/ms-jumbo.jpg');
+    background-size: cover;
+}
+.jumbotron .teaser h1{
+    color: #fff;
+    font-size: 45px;
+}
+.jumbotron .teaser p{
+    color: #bbcdff;
+    font-size: 20px;
+}
+/* END MAIN */
+
+
