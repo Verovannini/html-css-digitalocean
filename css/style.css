@@ -6,6 +6,9 @@ body{
 a{
     color: #2286fd;
 }
+a:hover{
+    text-decoration: none;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -37,7 +40,6 @@ a{
 }
 .header_nav .menu a:hover{
     color: #2286fd;
-    text-decoration: none;
 }
 
 .header_nav .menu .signup-btn{
@@ -70,13 +72,39 @@ a{
     background-image: url('../img/ms-jumbo.jpg');
     background-size: cover;
 }
+
+/* Teaser */
 .jumbotron .teaser h1{
     color: #fff;
-    font-size: 45px;
+    font-size: 50px;
 }
 .jumbotron .teaser p{
     color: #bbcdff;
     font-size: 20px;
+}
+
+/* Form */
+.jumbotron .form_wrapper{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.jumbotron .form_wrapper .form_title h2,
+.jumbotron .form_wrapper .form_title a{
+    font-size: 20px;
+}
+
+.jumbotron #signup-form{
+    padding-top: 10px;
+}
+
+.jumbotron .form_wrapper .signup-terms p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.jumbotron .form_wrapper .signup-terms p a{
+    text-decoration: underline;
 }
 /* END MAIN */
 
