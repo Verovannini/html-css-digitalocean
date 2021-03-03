@@ -62,7 +62,7 @@ a:hover{
     padding-top: 7px;
 }
 .header_nav .menu-right{
-    padding-top: 3px;
+    padding-top: 2px;
 }
 /* END HEADER */
 
@@ -105,6 +105,25 @@ a:hover{
 }
 .jumbotron .form_wrapper .signup-terms p a{
     text-decoration: underline;
+}
+
+.jumbotron .form_wrapper .btn-google{
+    position: relative;
+}
+.jumbotron .form_wrapper .google-icon{
+    height: 20px;
+    position: absolute;
+    left: 10px;
+}
+
+/* Media query jumbotron */
+@media screen and (max-width: 991px) {
+    .jumbotron .teaser h1{
+        font-size: 40px;
+    }
+    .jumbotron .teaser p{
+        font-size: 18px;
+    }
 }
 /* END MAIN */
 
