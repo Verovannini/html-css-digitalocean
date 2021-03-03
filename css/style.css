@@ -1,0 +1,66 @@
+/* COMMON */
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    color: #2286fd;
+}
+/* END COMMON */
+
+/* HEADER */
+.header_nav{
+    padding: 15px 0;
+}
+/* Logo */
+.header_nav .logo img{
+    height: 30px;
+}
+
+/* Nav */
+.header_nav nav{
+    text-align: right;
+}
+
+.header_nav .burger-toggle{
+    color: #2286fd;
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.header_nav .menu{
+    margin: 0;
+}
+
+.header_nav .menu a:not(.btn){
+    color: black;
+}
+.header_nav .menu a:hover{
+    color: #2286fd;
+    text-decoration: none;
+}
+
+.header_nav .menu .signup-btn{
+    border: 1px solid #2286fd;
+}
+.header_nav .menu .signup-btn:hover{
+    background-color: #2286fd;
+    color: #fff;
+}
+
+.header_nav .menu i{
+    font-size: 12px;
+}
+.header_nav .menu a,
+.header_nav .menu i{
+    vertical-align: middle;
+}
+
+.header_nav .menu-center{
+    padding-top: 7px;
+}
+.header_nav .menu-right{
+    padding-top: 3px;
+}
+/* END HEADER */
+
