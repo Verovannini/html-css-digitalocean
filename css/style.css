@@ -213,7 +213,6 @@ h4{
 /* Section Use */
 #use .slider{
     margin-top: 40px;
-    position: relative;
 }
 #use .slider img{
     width: 50%;
@@ -221,6 +220,9 @@ h4{
     max-width: 600px;
 }
 
+#use .slider .slider-image{
+    position: relative;
+}
 #use .arrow-left{
     position: absolute;
     font-size: 25px;
@@ -239,6 +241,18 @@ h4{
 #use .slider p{
     font-size: 12px;
     padding-top: 10px;
+}
+
+#use .slider .link-circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #056aff;
+}
+#use .slider .link-circle.active{
+    background-color: #056aff;
 }
 /* END MAIN */
 
