@@ -141,9 +141,10 @@ a:hover{
 
 #businesses .logo-menu li{
     display: inline-block;
+    padding-right: 5px;
 }
 #businesses .logo-menu img{
-    width: ;
+    width: 180px;
 }
 /* END MAIN */
 
