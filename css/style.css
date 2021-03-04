@@ -15,6 +15,10 @@ a:hover{
     margin: 0 auto;
 }
 
+.bg-gray{
+    background-color: #f3f5f9;
+}
+
 .section_padd{
     padding: 40px 0;
 }
@@ -160,11 +164,6 @@ h4{
 }
 
 /* Section Businesses */
-#businesses{
-    background-color: #f3f5f9;
-    padding: 30px 0;
-}
-
 #businesses h3{
     color: #6f7b97;
     text-transform: uppercase;
@@ -208,6 +207,37 @@ h4{
 }
 
 #process .col_inner{
+    padding-top: 10px;
+}
+
+/* Section Use */
+#use .slider{
+    margin-top: 40px;
+    position: relative;
+}
+#use .slider img{
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+#use .arrow-left{
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 22%;
+    transform: translate(0, -50%);
+}
+#use .arrow-right{
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 77%;
+    transform: translate(0, -50%);
+}
+
+#use .slider p{
+    font-size: 12px;
     padding-top: 10px;
 }
 /* END MAIN */
