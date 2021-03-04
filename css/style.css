@@ -49,6 +49,40 @@ h4{
     font-size: 13px;
     color: #75809a;
 }
+
+/* Slider */
+.slider{
+    margin-top: 40px;
+}
+.slider .slider-box{
+    position: relative;
+    margin-bottom: 20px;
+}
+.slider .arrow-left{
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 22%;
+    transform: translate(0, -50%);
+}
+.slider .arrow-right{
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 77%;
+    transform: translate(0, -50%);
+}
+.slider .link-circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #056aff;
+}
+.slider .link-circle.active{
+    background-color: #056aff;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -215,48 +249,14 @@ h4{
 }
 
 /* Section Use */
-#use .slider{
-    margin-top: 40px;
-}
 #use .slider img{
     width: 50%;
     min-width: 300px;
     max-width: 600px;
 }
 
-#use .slider .slider-image{
-    position: relative;
-}
-#use .arrow-left{
-    position: absolute;
-    font-size: 25px;
-    top: 50%;
-    left: 22%;
-    transform: translate(0, -50%);
-}
-#use .arrow-right{
-    position: absolute;
-    font-size: 25px;
-    top: 50%;
-    left: 77%;
-    transform: translate(0, -50%);
-}
-
 #use .slider p{
     font-size: 12px;
-    padding-top: 10px;
-}
-
-#use .slider .link-circle{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    padding-right: 5px;
-    border-radius: 50%;
-    border: 1px solid #056aff;
-}
-#use .slider .link-circle.active{
-    background-color: #056aff;
 }
 
 /* Section Features */
@@ -291,6 +291,27 @@ h4{
 #customers .row_wrapper .col_name,
 #customers .row_wrapper .col_test{
     text-align: center;
+}
+
+/* Section Reviews */
+#reviews .slider .slider-content{
+    background-color: #fff;
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+#reviews .slider .slider-content img{
+    width: 90%;
+    max-width: 300px;
+}
+#reviews .slider .slider-content p{
+    padding-top: 20px;
+}
+#reviews .slider .slider-content .reviewer-name{
+    font-size: 12px;
+    padding-bottom: 30px;
 }
 /* END MAIN */
 
