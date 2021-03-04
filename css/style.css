@@ -9,6 +9,38 @@ a{
 a:hover{
     text-decoration: none;
 }
+
+.small-wrapper{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.section_padd{
+    padding: 40px 0;
+}
+
+/* Proprietà titoli sezioni */
+.section_title{
+    text-align: center;
+}
+.section_title h2{
+    color: #031b4e;
+}
+
+h4{
+    color: #031b4e;
+    font-size: 17px;
+    padding-top:5px
+}
+
+/* Proprietà testi */
+.gray-text{
+    color: #5c6a88;
+}
+.small-text{
+    font-size: 13px;
+    color: #75809a;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -157,6 +189,26 @@ a:hover{
     #businesses .logo-menu li:nth-child(odd){
         margin-right: 20px;
     }
+}
+
+/* Section Process */
+#process .process-menu{
+    border-left: 1px solid #75809a;
+    padding-left: 10px;
+}
+#process .process-menu li{
+    padding: 8px 0;
+}
+#process .process-menu a{
+    color: #75809a;
+}
+
+#process .process-wrapper{
+    padding-top: 40px;
+}
+
+#process .col_inner{
+    padding-top: 10px;
 }
 /* END MAIN */
 
