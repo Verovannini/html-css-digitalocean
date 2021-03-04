@@ -18,6 +18,10 @@ a:hover{
 .bg-gray{
     background-color: #f3f5f9;
 }
+.bg-blue{
+    background-color: #0342c0;
+    color: #fff;
+}
 
 .section_padd{
     padding: 40px 0;
@@ -258,6 +262,35 @@ h4{
 /* Section Features */
 #features .col_inner{
     padding-top: 20px;
+}
+
+/* Section Customers */
+#customers h2{
+    color: #fff;
+}
+
+#customers a{
+    color: #01d5d2;
+}
+#customers a:hover{
+    color: #0069ff;
+}
+
+#customers .column_wrapper{
+    margin-top: 20px;
+}
+
+#customers .row_wrapper{
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+}
+#customers .row_wrapper:last-child{
+    border-bottom: 0;
+}
+
+#customers .row_wrapper .col_name,
+#customers .row_wrapper .col_test{
+    text-align: center;
 }
 /* END MAIN */
 
