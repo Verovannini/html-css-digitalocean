@@ -330,6 +330,29 @@ h4{
 /* END MAIN */
 
 /* FOOTER */
+footer{
+    background-color: #031b4e;
+}
+
+footer .copyright{
+    color: #8b94a9;
+}
+footer .copyright p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+footer .copyright .menu-social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+footer .copyright .menu-social li a{
+    color: #8b94a9;
+    font-size: 20px;
+}
+footer .copyright .menu-social li a:hover{
+    color: #fff;
+}
 /* END FOOTER */
 
 
