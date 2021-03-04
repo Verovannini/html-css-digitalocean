@@ -254,6 +254,11 @@ h4{
 #use .slider .link-circle.active{
     background-color: #056aff;
 }
+
+/* Section Features */
+#features .col_inner{
+    padding-top: 20px;
+}
 /* END MAIN */
 
 
