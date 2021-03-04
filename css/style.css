@@ -142,9 +142,21 @@ a:hover{
 #businesses .logo-menu li{
     display: inline-block;
     padding-right: 5px;
+    width: calc( ( 100% / 6 ) - 4px );
 }
 #businesses .logo-menu img{
-    width: 180px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Media query Businesses */
+@media screen and (max-width: 768px) {
+    #businesses .logo-menu li{
+        width: calc( ( 100% / 2 ) - 24px );
+    }
+    #businesses .logo-menu li:nth-child(odd){
+        margin-right: 20px;
+    }
 }
 /* END MAIN */
 
