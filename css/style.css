@@ -351,6 +351,8 @@ h4{
 /* Column Copyright */
 footer{
     background-color: #031b4e;
+    padding-top: 40px;
+    padding-bottom: 70px;
 }
 
 footer .copyright{
@@ -423,13 +425,26 @@ footer .help-chat .chat-message{
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    position: relative;
+}
+footer .help-chat .chat-message::after{
+    content: "";
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    transform: rotate(45deg);
+    z-index: -1;
 }
 footer .help-chat .chat-message p{
     font-size: 12px;
     margin: 0;
 }
 
-footer .small-chat-wrapper{
+footer .chat-wrapper{
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -439,7 +454,7 @@ footer .small-chat-wrapper{
 
 /* Media query chat */
 @media screen and (max-width: 991px) {
-    footer .small-chat-wrapper{
+    footer .chat-wrapper{
         position: fixed;
         bottom: 30px;
         left: 20px;
@@ -448,6 +463,10 @@ footer .small-chat-wrapper{
 
     footer .help-chat .chat-message{
         margin-top: 15px;
+    }
+
+    footer{
+        padding-bottom: 150px;
     }
 }
 /* END FOOTER */
