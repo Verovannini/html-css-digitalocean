@@ -332,6 +332,7 @@ h4{
 /* END MAIN */
 
 /* FOOTER */
+/* Column Copyright */
 footer{
     background-color: #031b4e;
 }
@@ -353,6 +354,23 @@ footer .copyright .menu-social li a{
     font-size: 20px;
 }
 footer .copyright .menu-social li a:hover{
+    color: #fff;
+}
+
+/* Column Links */
+footer .footer-bottom h5{
+    color: #fff;
+    font-size: 15px;
+}
+
+footer .footer-bottom li{
+    padding-bottom: 5px;
+}
+footer .footer-bottom a{
+    color: #969eb1;
+    font-size: 12px;
+}
+footer .footer-bottom a:hover{
     color: #fff;
 }
 /* END FOOTER */
