@@ -148,6 +148,21 @@ h4{
 .header_nav .menu-right{
     padding-top: 2px;
 }
+
+/* Media query Nav */
+@media screen and (min-width: 992px) {
+    .header_nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1;
+    }
+    .jumbotron{
+        margin-top: 66px;
+    }
+}
 /* END HEADER */
 
 /* MAIN */
@@ -398,7 +413,7 @@ footer .help-chat .chat-img::after{
     width: 25px;
     height: 25px;
     text-align: center;
-    line-height: 25px;
+    line-height: 19px;
     position: absolute;
     top: -10%;
     right: -10%;
@@ -419,6 +434,7 @@ footer .small-chat-wrapper{
     bottom: 30px;
     right: 30px;
     width: 30%;
+    z-index: 1;
 }
 
 /* Media query chat */
@@ -435,5 +451,3 @@ footer .small-chat-wrapper{
     }
 }
 /* END FOOTER */
-
-
