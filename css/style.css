@@ -54,6 +54,14 @@ h4{
 .slider{
     margin-top: 40px;
 }
+
+#use .slider img,
+#reviews .slider .slider-content{
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+}
+
 .slider .slider-box{
     position: relative;
     margin-bottom: 20px;
@@ -72,6 +80,7 @@ h4{
     left: 77%;
     transform: translate(0, -50%);
 }
+
 .slider .link-circle{
     display: inline-block;
     width: 10px;
@@ -249,12 +258,6 @@ h4{
 }
 
 /* Section Use */
-#use .slider img{
-    width: 50%;
-    min-width: 300px;
-    max-width: 600px;
-}
-
 #use .slider p{
     font-size: 12px;
 }
@@ -288,7 +291,9 @@ h4{
     border-bottom: 0;
 }
 
-#customers .row_wrapper .col_name,
+#customers .row_wrapper .col_name{
+    padding-left: 15px;
+}
 #customers .row_wrapper .col_test{
     text-align: center;
 }
@@ -296,9 +301,6 @@ h4{
 /* Section Reviews */
 #reviews .slider .slider-content{
     background-color: #fff;
-    width: 50%;
-    min-width: 300px;
-    max-width: 600px;
     margin: 0 auto;
     padding: 50px 10px;
 }
