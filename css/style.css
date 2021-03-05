@@ -39,7 +39,7 @@ a:hover{
 h4{
     color: #031b4e;
     font-size: 17px;
-    padding-top:5px
+    padding-top: 5px;
 }
 
 /* Proprietà testi */
@@ -67,19 +67,18 @@ h4{
     position: relative;
     margin-bottom: 20px;
 }
-.slider .arrow-left{
-    position: absolute;
-    font-size: 25px;
-    top: 50%;
-    left: 22%;
-    transform: translate(0, -50%);
-}
+.slider .arrow-left,
 .slider .arrow-right{
     position: absolute;
     font-size: 25px;
     top: 50%;
-    left: 77%;
     transform: translate(0, -50%);
+}
+.slider .arrow-left{
+    left: 22%;
+}
+.slider .arrow-right{
+    left: 77%;
 }
 
 .slider .link-circle{
@@ -149,7 +148,7 @@ h4{
     padding-top: 2px;
 }
 
-/* Media query Nav */
+/* Media query fixed nav */
 @media screen and (min-width: 992px) {
     .header_nav{
         position: fixed;
