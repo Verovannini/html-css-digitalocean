@@ -24,6 +24,20 @@
     background: linear-gradient(0deg, rgba(2,32,154,1) 0%, rgba(3,70,197,1) 100%);
     color: #fff;
 }
+.bg-gray{
+    background-color: #f3f5f9;
+}
+
+/* Titoli */
+.title{
+    text-align: center;
+}
+
+/* Menu */
+.menu-flex{
+    list-style-type: none;
+    display: flex;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -40,14 +54,10 @@ header .logo img{
     height: 30px;
 }
 
-header .menu{
-    list-style-type: none;
-    display: flex;
-}
-header .menu li{
+header .menu-flex li{
     padding-left: 10px;
 }
-header .menu li a{
+header .menu-flex li a{
     color: black;
     text-decoration: none;
     font-size: 14px;
@@ -55,7 +65,7 @@ header .menu li a{
 
 /* Media query nav */
 @media screen and (max-width: 991px) {
-    header .menu{
+    header .menu-flex{
         display: none;
     }
 }
@@ -68,11 +78,36 @@ header .menu li a{
 /* END HEADER */
 
 /* MAIN */
-/* Section Customers */
-#customers .title{
+/* Section Businesses */
+#businesses .title h3{
+    color: #6f7b97;
+}
+
+#businesses .menu-flex{
+    align-items: center;
+}
+#businesses .menu-flex li{
+    width: calc( 100% / 6 );
+}
+#businesses .menu-flex img{
+    width: 100%;
+}
+
+#businesses .link-view{
     text-align: center;
 }
 
+/* Media query Section Businesses */
+@media screen and (max-width: 768px) {
+    #businesses .menu-flex{
+        flex-wrap: wrap;
+    }
+    #businesses .menu-flex li{
+        width: calc( 100% / 2 );
+    }
+}
+
+/* Section Customers */
 #customers .info-chart{
     width: 50%;
     margin-top: 20px;
@@ -95,7 +130,7 @@ header .menu li a{
     color: #01d5d2;
 }
 
-/* media query */
+/* media query sezione customers */
 @media screen and (max-width: 991px) {
     #customers .container-flex{
         flex-wrap: wrap;
